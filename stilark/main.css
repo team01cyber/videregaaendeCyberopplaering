@@ -15,6 +15,15 @@ h3{
 	margin-top:1vw;
 }
 
+.hovedsideVideo{
+	margin:auto;
+
+}
+.sideInnpakning{
+display:flex;
+flex-direction:column;
+}
+
 /*   ALL CSS SOM OMHANDLER APPLIKASJON 1   */
 
 .bildeInformasjonInnholdDiv{
@@ -28,7 +37,7 @@ h3{
 	padding:5%;
 	width:auto;
 	flex:2;
-}     
+}
 
 .tekstInformasjon{
 	flex:1;
@@ -71,7 +80,7 @@ h3{
 		border:solid 2px white;
 		border-top:none;
 }
-.btn {
+.btn2 {
 	background: #343a40 !important;
 	color:white !important;
 	width: 20%;
