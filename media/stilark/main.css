@@ -1,0 +1,83 @@
+.navbarTopp{
+	flex-direction: row !important;
+}
+
+.Innhold{
+	display:flex;
+	flex-direction:column;
+}
+
+
+
+h3{
+	margin:auto;
+	width:65%;
+	margin-top:1vw;
+}
+
+/*   ALL CSS SOM OMHANDLER APPLIKASJON 1   */
+
+.bildeInformasjonInnholdDiv{
+	display: flex;
+	flex-direction:row;
+
+}
+.bildeDiv {
+	display:flex;
+	flex-wrap:wrap;
+	padding:5%;
+	width:auto;
+	flex:2;
+}     
+
+.tekstInformasjon{
+	flex:1;
+	padding:5%;
+}
+
+/* ALL CSS SOM OMHANDLER APPLIKASJON 2*/
+
+.pikselInput{
+	margin:auto;
+}
+.pikselBildeVisning {
+	margin:auto;
+	padding:2.5%;
+}
+
+
+
+
+/* ALL CSS SOM OMHANDLER HYTTESIDEN*/
+.tabell th {
+	padding:1vw;
+	background:#343a40;
+	border:solid 2px white;
+	color:white;
+	border-bottom:none;
+
+}
+
+.tabell{
+	margin:auto;
+	margin-bottom:0.5vw;
+	background:#343a40;
+	text-align:center;
+	color:white;
+
+}
+
+.tabell td{
+		border:solid 2px white;
+		border-top:none;
+}
+.btn {
+	background: #343a40 !important;
+	color:white !important;
+	width: 20%;
+	margin:auto;
+}
+
+.oppsummeringsDiv{
+	margin-left:4vw;
+}
