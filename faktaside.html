@@ -49,10 +49,11 @@
 
               <h4>Kontrollspørsmål spoofing?</h4>
               <p><b>Hva er spoofing?</b></p>
-              <input type="radio" class="quiz1" name="1" value="1">Spoofing handler om å få noe til å forsvinne.<br>
-              <input type="radio" class="quiz1" name="1" value="2">Spoofing handler om å bruke en annens identitet til å få tilgang på informasjon, data osv.<br>
-              <input type="radio" class="quiz1" name="1" value="3">Spoofing er en måte å kommunisere på over internettet uten å bruke en fast ID.<br>
-              <button type="button" name="button" onclick="sjekksvar()">Sjekk svar</button>
+              <input type="radio" class="quiz1" name="0" value="1">Spoofing handler om å få noe til å forsvinne.<br>
+              <input type="radio" class="quiz1" name="0" value="2">Spoofing handler om å bruke en annens identitet til å få tilgang på informasjon, data osv.<br>
+              <input type="radio" class="quiz1" name="0" value="3">Spoofing er en måte å kommunisere på over internettet uten å bruke en fast ID.<br>
+              <div class="svarOutput0"></div>
+              <button type="button" name="button" onclick="sjekksvar(0)">Sjekk svar</button>
 
             </div>
 
@@ -74,7 +75,8 @@
               <input type="radio" class="quiz1" name="1" value="1">Nei, absolutt ikke. Det siste en svindler trenger for å lykkes er vedkommendes tillit.<br>
               <input type="radio" class="quiz1" name="1" value="2">Nei, tillit er bare en bonus for svindleren. <br>
               <input type="radio" class="quiz1" name="1" value="3">Ja, det er tillitsbåndet som på mange måter er avgjørende for at svindleren lykkes.<br>
-              <button type="button" name="button" onclick="sjekksvar()">Sjekk svar</button>
+              <div class="svarOutput1"></div>
+              <button type="button" name="button" onclick="sjekksvar(1)">Sjekk svar</button>
 
             </div>
 
@@ -93,10 +95,11 @@
 
               <h4>Kontrollspørsmål spoofing?</h4>
               <p><b>Vi har mange ulike kilder, men via hvilken er det mest vanlig at et cyber-angrep foreløper?</b></p>
-              <input type="radio" class="quiz1" name="1" value="1">Over Telefonen <br>
-              <input type="radio" class="quiz1" name="1" value="2">Via Email <br>
-              <input type="radio" class="quiz1" name="1" value="3">Via Facebook<br>
-              <button type="button" name="button" onclick="sjekksvar()">Sjekk svar</button>
+              <input type="radio" class="quiz1" name="2" value="1">Over Telefonen <br>
+              <input type="radio" class="quiz1" name="2" value="2">Via Email <br>
+              <input type="radio" class="quiz1" name="2" value="3">Via Facebook<br>
+              <div class="svarOutput2"></div>
+              <button type="button" name="button" onclick="sjekksvar(2)">Sjekk svar</button>
 
             </div>
 
@@ -116,10 +119,11 @@
 
               <h4>Kontrollspørsmål spoofing?</h4>
               <p><b>Hvordan kan man lettest mulig unngå spoofing og andre typer angrep?</b></p>
-              <input type="radio" class="quiz1" name="1" value="1">Bruk sunn fornuft og ta kontakt med fagpersoner ved usikkerhet.<br>
-              <input type="radio" class="quiz1" name="1" value="2">La være å svare de som ringer med “ukjent” nummer. <br>
-              <input type="radio" class="quiz1" name="1" value="3">Det er umulig å unngå spoofing angrep. <br>
-              <button type="button" name="button" onclick="sjekksvar()">Sjekk svar</button>
+              <input type="radio" class="quiz1" name="3" value="1">Bruk sunn fornuft og ta kontakt med fagpersoner ved usikkerhet.<br>
+              <input type="radio" class="quiz1" name="3" value="2">La være å svare de som ringer med “ukjent” nummer. <br>
+              <input type="radio" class="quiz1" name="3" value="3">Det er umulig å unngå spoofing angrep. <br>
+              <div class="svarOutput3"></div>
+              <button type="button" name="button" onclick="sjekksvar(3)">Sjekk svar</button>
 
             </div>
 
@@ -145,10 +149,11 @@
 
               <h4>Kontrollspørsmål phishing?</h4>
               <p><b>Hva er Phishing?</b></p>
-              <input type="radio" class="quiz1" name="1" value="1">En type svindelforsøk, ofte gjennom mail, hvor hackere lurer brukere til å oppgi sensitiv informasjon eller laste ned malware.<br>
-              <input type="radio" class="quiz1" name="1" value="2">En type svindelforsøk der hackere bruker virus til direkte bryte seg inn i systemet.<br>
-              <input type="radio" class="quiz1" name="1" value="3">En type svindelforsøk, hvor hackere lurer bekjente til å oppgi informasjon om deg.<br>
-              <button type="button" name="button" onclick="sjekksvar()">Sjekk svar</button>
+              <input type="radio" class="quiz1" name="4" value="1">En type svindelforsøk, ofte gjennom mail, hvor hackere lurer brukere til å oppgi sensitiv informasjon eller laste ned malware.<br>
+              <input type="radio" class="quiz1" name="4" value="2">En type svindelforsøk der hackere bruker virus til direkte bryte seg inn i systemet.<br>
+              <input type="radio" class="quiz1" name="4" value="3">En type svindelforsøk, hvor hackere lurer bekjente til å oppgi informasjon om deg.<br>
+              <div class="svarOutput4"></div>
+              <button type="button" name="button" onclick="sjekksvar(4)">Sjekk svar</button>
 
             </div>
 
@@ -165,10 +170,11 @@
 
               <h4>Kontrollspørsmål phishing?</h4>
               <p><b>Du får en e-post fra kollega Asgeir med en link som virker tilsynelatende legitim. Likevel finner du noen småfeil i rettskrivingen. Hvordan burde du tenke rundt dette?</b></p>
-              <input type="radio" class="quiz1" name="1" value="1">Dette er en trygg lenke uten grunn til bekymring siden Asgeir er en grei fyr og han ville aldri gjort noe for å stjele eller ødelegge informasjonen min<br>
-              <input type="radio" class="quiz1" name="1" value="2">Vær varsom før du trykker på lenken, rettskrivningsfeilene er ulikt Asgeir og dette kan kanskje være en sikkerhetstrussel. Ikke skriv inn noe informasjon og vurder om du skal kontakte sikkerhetsansvarlig før du gjør noe som helst<br>
-              <input type="radio" class="quiz1" name="1" value="3">Tja.. Lenken er kanskje ikke helt trygg men det går sikkert bra så lenge jeg ikke skriver inn noe på lenken<br>
-              <button type="button" name="button" onclick="sjekksvar()">Sjekk svar</button>
+              <input type="radio" class="quiz1" name="5" value="1">Dette er en trygg lenke uten grunn til bekymring siden Asgeir er en grei fyr og han ville aldri gjort noe for å stjele eller ødelegge informasjonen min<br>
+              <input type="radio" class="quiz1" name="5" value="2">Vær varsom før du trykker på lenken, rettskrivningsfeilene er ulikt Asgeir og dette kan kanskje være en sikkerhetstrussel. Ikke skriv inn noe informasjon og vurder om du skal kontakte sikkerhetsansvarlig før du gjør noe som helst<br>
+              <input type="radio" class="quiz1" name="5" value="3">Tja.. Lenken er kanskje ikke helt trygg men det går sikkert bra så lenge jeg ikke skriver inn noe på nettsiden<br>
+              <div class="svarOutput5"></div>
+              <button type="button" name="button" onclick="sjekksvar(5)">Sjekk svar</button>
 
             </div>
 
@@ -187,10 +193,11 @@ Det samme sikkerhetsfirmaet fant 482 millioner forsøk på Phishing angrrep i 20
 
               <h4>Kontrollspørsmål phishing?</h4>
               <p><b>Hvor utbredt er Phishing?</b></p>
-              <input type="radio" class="quiz1" name="1" value="1">Phishing forekommer svært sjeldent, du vil sannsynligvis aldri bli utsatt for dette. <br>
-              <input type="radio" class="quiz1" name="1" value="2">Phishing er i dag en svært vanlig måte for hackere å angripe brukere på. 1 mail av ca. 3000 er et forsøk på Phishing.<br>
-              <input type="radio" class="quiz1" name="1" value="3">Phishing er et svært stort problem i den digitale hverdagen, det er ingen måte å beskytte seg mot Phishing angrep på.<br>
-              <button type="button" name="button" onclick="sjekksvar()">Sjekk svar</button>
+              <input type="radio" class="quiz1" name="6" value="1">Phishing forekommer svært sjeldent, du vil sannsynligvis aldri bli utsatt for dette. <br>
+              <input type="radio" class="quiz1" name="6" value="2">Phishing er i dag en svært vanlig måte for hackere å angripe brukere på. 1 mail av ca. 3000 er et forsøk på Phishing.<br>
+              <input type="radio" class="quiz1" name="6" value="3">Phishing er et svært stort problem i den digitale hverdagen, det er ingen måte å beskytte seg mot Phishing angrep på.<br>
+              <div class="svarOutput6"></div>
+              <button type="button" name="button" onclick="sjekksvar(6)">Sjekk svar</button>
 
             </div>
 

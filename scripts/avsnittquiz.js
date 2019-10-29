@@ -11,6 +11,11 @@ let riktigSvarListe = {
 
 
 
+
+
+
+
+
 //sjekker om svaret er riktig
 function sjekksvar(x){
   let svarListe = document.getElementsByName(x);
