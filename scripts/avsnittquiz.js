@@ -6,6 +6,8 @@ let riktigSvarListe = {
     quiz4: {riktigSvar: 1},
     quiz5: {riktigSvar: 2},
     quiz6: {riktigSvar: 2},
+    quiz7: {riktigSvar: 3},
+    quiz8: {riktigSvar: 2},
 }
 
 

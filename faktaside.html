@@ -7,7 +7,7 @@
   <link rel="stylesheet" type="text/css" href="stilark/main.css">
   <link rel="stylesheet" href="stilark/blog.css">
 </head>
-<h3>test</h3>
+
 <body>
   <div class="sideInnpakning">
     <div class="navbar navbar-dark bg-dark">
@@ -16,15 +16,13 @@
         <li class="nav-item mr-5 ">
           <a class="nav-link" href="index.html">Hovedside</a>
         </li>
+        <li class="nav-item mr-5 ">
+          <a class="nav-link" href="hovedside.html">Video</a>
+        </li>
         <li class="nav-item mr-5">
           <a class="nav-link" href="faktaside.html">Fakta</a>
         </li>
-        <li class="nav-item mr-5">
-          <a class="nav-link" href="quiz.html">Quiz</a>
-        </li>
-        <li class="nav-item mr-5">
-          <a class="nav-link" href="kilder.html">Kilder</a>
-        </li>
+
       </ul>
     </div>
 
@@ -32,6 +30,52 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 blog-main" style="margin:auto !important;">
+          <div class="blog-post">
+            <div class="avsnitt">
+              <h3 style="text-align:center;">Datasikkerhet</h3>
+              <h5>Hva er datasikkerhet?</h5>
+              <p>
+              Datasikkerhet handler om gjensidig sikkerhet mellom maskin og mennesket. Det handler om å beskytte mennesker mot datamaskiner, datamaskiner mot mennesker, men mest av alt å beskytte mennesker mot mennesker. Man tar ofte datasikkerhet for gitt, men det er minst like viktig som internetthastigheten. De fleste bruker bankkort for å betale og email for å svare på mail. For mange utgjør dette mer sensitiv informasjon enn de har i fysisk forstand. Får en hacker kontroll på din påloggingsinformasjon til banken, har han kontroll på neste hele livet ditt. Det samme gjelder for email, for mange er det for mye sensitiv informasjon der til at det er akseptabelt at noen ukjente får tilgang.
+            </p>
+            </div>
+
+            <div class="avsnittQuiz">
+
+              <h4>Kontrollspørsmål datasikkerhet</h4>
+              <p><b>Hva er datasikkerhet?</b></p>
+              <input type="radio" class="quiz1" name="7" value="1">Datasikkerhet handler om å ikke la noen andre røre din datamaskin<br>
+              <input type="radio" class="quiz1" name="7" value="2">Datasikkerhet handler om å bry seg minst mulig om hva man legger ut på nettet<br>
+              <input type="radio" class="quiz1" name="7" value="3">Datasikkerhet handler om å beskytte sin personlige data mot uønskede maskiner og mennesker.<br>
+              <div class="svarOutput7"></div>
+              <button type="button" name="button" onclick="sjekksvar(7)">Sjekk svar</button>
+
+            </div>
+
+          </div>
+
+          <div class="blog-post">
+            <div class="avsnitt">
+
+              <h5>videre om datasikkerhet?</h5>
+              <p>
+              Cyberkriminalitet er dessverre en ekstremt økende fare i dagens samfunn. Det anslås at omtrent 700 millioner mennesker har blitt berørt av cyberkriminalitet bare i 2018, og at det i gjennomsnitt utføres et dataangrep hvert 39 sekund. Det kreves veldig lite av en cyberkriminell for å stjele fra deg, men det kreves heller ikke så mye fra deg for å hindre at dette skjer. Passord er det mest vanlige våpenet mot cyberkriminelle, men svært få bruker de riktig. Mange kjenner seg kanskje igjen i å ha et kort passord som man bruker flere steder, men dette er dessverre ikke nok. Et råd er å bruke forskjellige passord til ulike nettsider, og helst ha flere enn 10 bokstaver, tall og spesialtegn. Hvis man ikke orker å ha så mange passord, i hvert fall ha et eget passord for viktige sider som bank, email, osv.
+            </p>
+            </div>
+
+            <div class="avsnittQuiz">
+
+              <h4>Kontrollspørsmål datasikkerhet</h4>
+              <p><b>Hvilken av påstandene nedenfor er sann?</b></p>
+              <input type="radio" class="quiz1" name="8" value="1">700 milliarder mennesker var utsatt for cyberangrep i 2018.<br>
+              <input type="radio" class="quiz1" name="8" value="2">Dataangrep skjer i gjennomsnitt mer enn en gang per minutt<br>
+              <input type="radio" class="quiz1" name="8" value="3">Alle datamaskiner i Kina er infisert av virus<br>
+              <div class="svarOutput8"></div>
+              <button type="button" name="button" onclick="sjekksvar(8)">Sjekk svar</button>
+
+            </div>
+            <br><h6>Kilde angående datasikkerhet: <br><a href="https://safeatlast.co/blog/cybercrime-statistics/">Bera, Ana. SafeAtLast. https://safeatlast.co/blog/cybercrime-statistics/. 12.03.2019.</a></h6>
+          </div>
+
           <div class="blog-post">
             <div class="avsnitt">
               <h3 style="text-align:center;">Spoofing</h3>
@@ -47,7 +91,7 @@
 
             <div class="avsnittQuiz">
 
-              <h4>Kontrollspørsmål spoofing?</h4>
+              <h4>Kontrollspørsmål spoofing</h4>
               <p><b>Hva er spoofing?</b></p>
               <input type="radio" class="quiz1" name="0" value="1">Spoofing handler om å få noe til å forsvinne.<br>
               <input type="radio" class="quiz1" name="0" value="2">Spoofing handler om å bruke en annens identitet til å få tilgang på informasjon, data osv.<br>
@@ -70,7 +114,7 @@
 
             <div class="avsnittQuiz">
 
-              <h4>Kontrollspørsmål spoofing?</h4>
+              <h4>Kontrollspørsmål spoofing</h4>
               <p><b>Er tillit et suksessfaktor for et spoofing angrep? </b></p>
               <input type="radio" class="quiz1" name="1" value="1">Nei, absolutt ikke. Det siste en svindler trenger for å lykkes er vedkommendes tillit.<br>
               <input type="radio" class="quiz1" name="1" value="2">Nei, tillit er bare en bonus for svindleren. <br>
@@ -93,7 +137,7 @@
 
             <div class="avsnittQuiz">
 
-              <h4>Kontrollspørsmål spoofing?</h4>
+              <h4>Kontrollspørsmål spoofing</h4>
               <p><b>Vi har mange ulike kilder, men via hvilken er det mest vanlig at et cyber-angrep foreløper?</b></p>
               <input type="radio" class="quiz1" name="2" value="1">Over Telefonen <br>
               <input type="radio" class="quiz1" name="2" value="2">Via Email <br>
@@ -117,7 +161,7 @@
 
             <div class="avsnittQuiz">
 
-              <h4>Kontrollspørsmål spoofing?</h4>
+              <h4>Kontrollspørsmål spoofing</h4>
               <p><b>Hvordan kan man lettest mulig unngå spoofing og andre typer angrep?</b></p>
               <input type="radio" class="quiz1" name="3" value="1">Bruk sunn fornuft og ta kontakt med fagpersoner ved usikkerhet.<br>
               <input type="radio" class="quiz1" name="3" value="2">La være å svare de som ringer med “ukjent” nummer. <br>
@@ -127,7 +171,7 @@
 
             </div>
 
-            <h3>Kilder angående spoofing: <a href="https://softwarelab.org/what-is-spoofing/"> https://softwarelab.org/what-is-spoofing/</a></h3>
+            <br><h6>Kilder angående spoofing: <br><a href="https://softwarelab.org/what-is-spoofing/"> https://softwarelab.org/what-is-spoofing/</a></h6>
 
           </div>
 
@@ -147,7 +191,7 @@
 
             <div class="avsnittQuiz">
 
-              <h4>Kontrollspørsmål phishing?</h4>
+              <h4>Kontrollspørsmål phishing</h4>
               <p><b>Hva er Phishing?</b></p>
               <input type="radio" class="quiz1" name="4" value="1">En type svindelforsøk, ofte gjennom mail, hvor hackere lurer brukere til å oppgi sensitiv informasjon eller laste ned malware.<br>
               <input type="radio" class="quiz1" name="4" value="2">En type svindelforsøk der hackere bruker virus til direkte bryte seg inn i systemet.<br>
@@ -168,7 +212,7 @@
 
             <div class="avsnittQuiz">
 
-              <h4>Kontrollspørsmål phishing?</h4>
+              <h4>Kontrollspørsmål phishing</h4>
               <p><b>Du får en e-post fra kollega Asgeir med en link som virker tilsynelatende legitim. Likevel finner du noen småfeil i rettskrivingen. Hvordan burde du tenke rundt dette?</b></p>
               <input type="radio" class="quiz1" name="5" value="1">Dette er en trygg lenke uten grunn til bekymring siden Asgeir er en grei fyr og han ville aldri gjort noe for å stjele eller ødelegge informasjonen min<br>
               <input type="radio" class="quiz1" name="5" value="2">Vær varsom før du trykker på lenken, rettskrivningsfeilene er ulikt Asgeir og dette kan kanskje være en sikkerhetstrussel. Ikke skriv inn noe informasjon og vurder om du skal kontakte sikkerhetsansvarlig før du gjør noe som helst<br>
@@ -191,7 +235,7 @@ Det samme sikkerhetsfirmaet fant 482 millioner forsøk på Phishing angrrep i 20
 
             <div class="avsnittQuiz">
 
-              <h4>Kontrollspørsmål phishing?</h4>
+              <h4>Kontrollspørsmål phishing</h4>
               <p><b>Hvor utbredt er Phishing?</b></p>
               <input type="radio" class="quiz1" name="6" value="1">Phishing forekommer svært sjeldent, du vil sannsynligvis aldri bli utsatt for dette. <br>
               <input type="radio" class="quiz1" name="6" value="2">Phishing er i dag en svært vanlig måte for hackere å angripe brukere på. 1 mail av ca. 3000 er et forsøk på Phishing.<br>
@@ -225,7 +269,7 @@ Det samme sikkerhetsfirmaet fant 482 millioner forsøk på Phishing angrrep i 20
             <p>For å beskytte deg selv mot phishing anbefaler vi hvertfall at du tar deg god tid når du leser over mail, spesielt mailer som inneholder lenker. Alltid vær på vakt og husk at det er mer enn bare stjeling av informasjon som kan foregå. Ikke vær redd for å be om hjelp.</p>
             </div>
 
-            <h3>Kilder angående phishing:</h3> <a href="https://nettvett.no/phishing/"> https://nettvett.no/phishing/</a><br>
+            <h5 style="font-weight:bold;">Kilder angående phishing:</h5> <a href="https://nettvett.no/phishing/"> https://nettvett.no/phishing/</a><br>
             -Bergsjø, H.B og Windvik, R.W. (2018) Datasikkerhet for ledere. 2. Utg. Oslo: 	Universitetsforlaget.
 
 
